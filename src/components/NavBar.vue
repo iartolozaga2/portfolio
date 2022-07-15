@@ -61,7 +61,7 @@ body {
 header {
   width: 100%;
   height: 250px;
-  background-image: url("../assets/cover4.jpg");
+  background-image: url("../assets/inigo.jpg");
 }
 
 header p {
