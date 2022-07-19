@@ -4,18 +4,20 @@
       <p>Hiiiii im inigo</p>
     </header>
     <div class="nav-bar">
-      <nav class="flex">
-        <div class="navBar hidden flex">
+      <nav>
+        <div class="text-center">
           <ul>
-            <div><li>
-              <router-link active-class="active-link" exact-active-class="exact-active-link"
-                           to="/">
+            <div>
+              <router-link active-class="active-link"
+                           exact-active-class="exact-active-link" to="/">
+              <li class="hover:bg-slate-100 font-black uppercase">
                 Home
+              </li>
               </router-link>
-            </li></div>
+            </div>
             <div><li>
-              <router-link active-class="active-link" exact-active-class="exact-active-link"
-                           to="/about">
+              <router-link active-class="active-link"
+                           exact-active-class="exact-active-link" to="/about">
                 About Me
               </router-link>
             </li></div>
@@ -69,20 +71,16 @@ $(function () {
   padding: 0;
 }
 
-.active {
-  color: #00bfb6;
+.active-link {
+  color: red;
   font-weight: bold;
   font-weight: 900;
 }
 
 .exact-active-link {
-  color: #00bfb6;
+  color: red;
   font-weight: bold;
   font-weight: 900;
-}
-
-body {
-  background: #ccc;
 }
 
 .wrapper {
@@ -108,7 +106,6 @@ header p {
 nav {
   width: 100%;
   height: 50px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
 }
 
 ul {
@@ -122,6 +119,7 @@ ul li {
   text-align: center;
   width: 25%;
   line-height: 50px;
+  height: 49px;
 }
 
 ul li a {
@@ -130,14 +128,6 @@ ul li a {
   color: #000;
   font-weight: 900;
   font-family: arial;
-}
-
-ul li a:hover {
-  color: #00bfb6;
-}
-
-navBar hidden flex {
-  text-align: center;
 }
 
 .content {
@@ -152,5 +142,6 @@ navBar hidden flex {
 
 .nav-bar {
   height: 50px;
+  border-bottom: 1px solid black;
 }
 </style>
