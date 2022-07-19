@@ -1,0 +1,21 @@
+Iñigo Artolozaga
+Portfolio from scratch
+
+Requirements (MoSCoW)
+
+Must:
+- Have an attractive home page.
+- Have a page with a contact form that redirects messages to my email.
+- Have an 'About' page that talks about my experience.
+- Have a page that shows all my works in a visually appealing way.
+
+Should:
+- Be completely responsive (adapt to different screen sizes and ratios).
+- Have a modern, sleek, minimalist design.
+- Employ in-house design system.
+
+Could:
+- TBD
+
+Won't:
+- TBD

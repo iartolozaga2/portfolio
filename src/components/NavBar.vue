@@ -7,10 +7,30 @@
       <nav class="flex">
         <div class="navBar hidden flex">
           <ul>
-            <div><li><a href="/">Home</a></li></div>
-            <div><li><a href="/about">About Me</a></li></div>
-            <div><li><a href="#">My Work</a></li></div>
-            <div><li><a href="#">Contact Me</a></li></div>
+            <div><li>
+              <router-link active-class="active-link" exact-active-class="exact-active-link"
+                           to="/">
+                Home
+              </router-link>
+            </li></div>
+            <div><li>
+              <router-link active-class="active-link" exact-active-class="exact-active-link"
+                           to="/about">
+                About Me
+              </router-link>
+            </li></div>
+            <div><li>
+              <router-link active-class="active-link" exact-active-class="exact-active-link"
+                           to="/work">
+                My Work
+              </router-link>
+            </li></div>
+            <div><li>
+              <router-link active-class="active-link" exact-active-class="exact-active-link"
+                           to="/contact">
+                Contact Me
+              </router-link>
+            </li></div>
           </ul>
         </div>
       </nav>
@@ -47,6 +67,18 @@ $(function () {
 * {
   margin: 0;
   padding: 0;
+}
+
+.active {
+  color: #00bfb6;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+.exact-active-link {
+  color: #00bfb6;
+  font-weight: bold;
+  font-weight: 900;
 }
 
 body {
