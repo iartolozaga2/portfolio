@@ -4,6 +4,7 @@
 </template>
 
 <style lang="scss">
+@import './styles/_all';
 
 .text-mycolor {
   color: #00bfb6;
@@ -15,7 +16,7 @@ html, body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: $font-inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

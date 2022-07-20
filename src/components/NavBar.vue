@@ -8,31 +8,33 @@
         <div class="text-center">
           <ul>
             <div>
-              <router-link active-class="active-link"
-                           exact-active-class="exact-active-link" to="/">
-              <li class="hover:bg-slate-100 font-black uppercase">
-                Home
-              </li>
+              <router-link active-class="active-link" exact-active-class="exact-active-link" to="/">
+                <li class="hover:bg-slate-100 font-black hover:text-green-500 uppercase">
+                  Home
+                </li>
               </router-link>
             </div>
-            <div><li>
-              <router-link active-class="active-link"
-                           exact-active-class="exact-active-link" to="/about">
-                About Me
+            <div>
+              <router-link to="/about">
+                <li class="hover:bg-slate-100 font-black uppercase">
+                  About
+                </li>
               </router-link>
-            </li></div>
-            <div><li>
-              <router-link active-class="active-link" exact-active-class="exact-active-link"
-                           to="/work">
-                My Work
-              </router-link>
-            </li></div>
-            <div><li>
-              <router-link active-class="active-link" exact-active-class="exact-active-link"
-                           to="/contact">
-                Contact Me
-              </router-link>
-            </li></div>
+            </div>
+            <div>
+              <li>
+                <router-link active-class="active-link" exact-active-class="exact-active-link" to="/work">
+                  My Work
+                </router-link>
+              </li>
+            </div>
+            <div>
+              <li>
+                <router-link active-class="active-link" exact-active-class="exact-active-link" to="/contact">
+                  Contact Me
+                </router-link>
+              </li>
+            </div>
           </ul>
         </div>
       </nav>
@@ -106,6 +108,7 @@ header p {
 nav {
   width: 100%;
   height: 50px;
+  background: white;
 }
 
 ul {
@@ -119,7 +122,8 @@ ul li {
   text-align: center;
   width: 25%;
   line-height: 50px;
-  height: 49px;
+  background: white;
+  margin-bottom: 20px;
 }
 
 ul li a {
@@ -127,7 +131,6 @@ ul li a {
   text-transform: uppercase;
   color: #000;
   font-weight: 900;
-  font-family: arial;
 }
 
 .content {
@@ -142,6 +145,5 @@ ul li a {
 
 .nav-bar {
   height: 50px;
-  border-bottom: 1px solid black;
 }
 </style>
