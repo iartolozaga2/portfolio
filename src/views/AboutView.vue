@@ -1,14 +1,13 @@
 <template>
-  <div class="about">
-    <div class="text">
-      <p>I'm a Master's student specializing in Human-Computer Interaction Design.
-        I also love Machine Learning, and I'd like to explore the intersection
-        of AI and Interaction Technology in the future.
-        I am half a year away from graduating from my Master's,
-        and I am currently looking for a company to do my Graduation Assignment with.
-        Are you or someone you know interested?</p>
+  <div class="flex flex-row justify-center">
+    <div class="basis-full">
+      <img src="../assets/inigo.jpg" alt="hiii">
     </div>
-
+    <div class="flex flex-col">
+      <p class="font-black text-xl w-full">Hey!👋 I'm Iñigo, a Graduate Student specialized in User Experience Design.</p>
+      <p>I'm currently based in the Netherlands, where I'm writing my Graduation Thesis and doing some freelance UX work.
+        I am looking for a full-time UX Researcher/Designer. Are you or someone you know interested?</p>
+    </div>
   </div>
 </template>
 
@@ -23,7 +22,4 @@ export default {
 </script>
 
 <style>
-text {
-  width: 20%;
-}
 </style>
