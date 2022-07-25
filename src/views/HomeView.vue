@@ -2,7 +2,7 @@
   <div class="home">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
-  <img src="../assets/inigo.jpg" alt="poop">
+  <img src="../assets/multimedia/inigo.jpg" alt="poop">
 </template>
 
 <script>

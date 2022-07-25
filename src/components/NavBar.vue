@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <header>
+    <header class="bg-inigo">
       <p>Hiiiii im inigo</p>
     </header>
     <div class="nav-bar">
@@ -75,13 +75,11 @@ $(function () {
 
 .active-link {
   color: red;
-  font-weight: bold;
   font-weight: 900;
 }
 
 .exact-active-link {
   color: red;
-  font-weight: bold;
   font-weight: 900;
 }
 
@@ -93,7 +91,6 @@ $(function () {
 header {
   width: 100%;
   height: 250px;
-  background-image: url("../assets/inigo.jpg");
 }
 
 header p {

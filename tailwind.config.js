@@ -3,7 +3,11 @@ module.exports = {
   content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     fontSize: {
-      xl: '3vw',
+      body: '2vw',
+      header: '3vw',
+    },
+    backgroundImage: {
+      inigo: "url('multimedia/inigo.jpg')",
     },
   },
   plugins: [],

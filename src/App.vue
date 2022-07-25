@@ -4,7 +4,7 @@
 </template>
 
 <style lang="scss">
-@import './styles/_all';
+@import 'assets/styles/all';
 
 .text-mycolor {
   color: #00bfb6;
